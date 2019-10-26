@@ -28,7 +28,7 @@
             <div v-if="loginstage == 1">
 
                 <h3 class="text-center">Job Interview Helper</h3>
-                <p>TEST This service helps you to pass your job interview.</p>
+                <p>This service helps you to pass your job interview.</p>
                 <p>How it works: you need to login with your LinkedIn account, the service parses your profile and generates audio that you could speak, when answering questions of the real interviewers.</p>
                 <p>To continue please log in with your LinkedIn account:</p>
 
@@ -106,8 +106,12 @@
                 </div>
             </div>
 
-            <div v-else-if="loginstage==4 ">
+
+            <div v-else-if="loginstage==4">
                 Here's your result! {{ resulttext }}
+                <audio controls autoplay>
+                    <source v-bind:src="soundFilePath">
+                </audio>
             </div>
 
 
@@ -120,18 +124,27 @@
             data: {
                 loginstage: 1,
                 resulttext: '',
+                soundFilePath: '',
             },
             methods: {
                 makerequest: function() {
                     this.loginstage = 3;
                     axios
                     //.get('https://api.coindesk.com/v1/bpi/currentprice.json')
-                        .get('https://www.bensound.com/bensound-music/bensound-summer.mp3')
+                        .get('https://junctionbudapest.azurewebsites.net/api/getAudioFromTextDescription?code=l2xFamnIuENiyVF9xYlDMNuLWqXzrPF7kV/MW8kt9HCxJ0pfCaj4gg==')
                         .then(response => {
-                            this.loginstage = 4;
-                            this.resulttext = JSON.stringify(response);
 
-                            (this.info = response);
+
+                            this.soundFilePath = result['soundFile'];
+                            this.resulttext = result['textDescription'];
+
+                            this.loginstage = 4;
+
+
+
+
+
+                            // (this.info = response);
                         })
                 }
             }
