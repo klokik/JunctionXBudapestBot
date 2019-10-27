@@ -139,11 +139,16 @@
 
                             axios.get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?name=yuri&code=GKzujHgeCZrl6P5JpNqf93gYS%2FySpIXFVJkNVo8YOru8JJdDHCfkAQ%3D%3D').then(response => {
                                 //.get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?name=yuri&code=GKzujHgeCZrl6P5JpNqf93gYS/ySpIXFVJkNVo8YOru8JJdDHCfkAQ==')
+                                if (this.status == "success") {
+                                    this.soundFilePath = response['soundUrl'];
+                                    this.resulttext = response['description'];
 
-                                this.soundFilePath = response['soundFile'];
-                                this.resulttext = response['textDescription'];
+                                    this.loginstage = 4;
+                                } else {
+                                    alert('sorry, error!');
+                                }
 
-                                this.loginstage = 4;
+
 
 
                                 //})
