@@ -1,0 +1,273 @@
+{
+  "general": [
+    {
+      "fullName": "Tomas Ye",
+      "headline": "Software Engineer at Amazon",
+      "company": "Amazon",
+      "location": "Luxembourg",
+      "keyPhrases": [
+        "machine learning models",
+        "today's world",
+        "abundant amounts of data",
+        "strong background",
+        "junior software developer",
+        "problems",
+        "best",
+        "experience",
+        "fancy web application",
+        "Python",
+        "mathematics",
+        "technology",
+        "TensorFlow",
+        "SciKitLearn",
+        "free time",
+        "JavaScript",
+        "play",
+        "databases",
+        "technological challenges",
+        "self-improvement",
+        "limits",
+        "gymnastics",
+        "SQL",
+        "relevant information",
+        "good decisions",
+        "blog",
+        "innovation",
+        "ways",
+        "people",
+        "Ping"
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "companyName": "Amazon",
+      "jobTitle": "Software Engineer",
+      "dateRange": "Jul 2019 \u2013 Present",
+      "location": "Luxembourg",
+      "keyPhrases": [
+        "project development",
+        "transportation vehicles",
+        "Amazon great",
+        "Amazon Transportation network",
+        "increased precision of scheduling",
+        "great pleasure",
+        "onboarding of new interns",
+        "Google Guice powered Java Backend server application",
+        "AWS cloud",
+        "valuable insight",
+        "Continuous Deployment Pipeline",
+        "MySQL database",
+        "Automatised unit",
+        "end-to-end data visualisation solution",
+        "necessary computational infrastructure",
+        "integration tests",
+        "business operators",
+        "web browser client",
+        "monetary savings",
+        "later stages",
+        "product flourish",
+        "company",
+        "forecasted demand",
+        "version",
+        "Proof Of Concept",
+        "technological stack",
+        "tool",
+        "technology",
+        "rest",
+        "key responsibilities",
+        "team"
+      ]
+    },
+    {
+      "companyName": "Amazon",
+      "jobTitle": "Software Engineer Intern",
+      "dateRange": "Mar 2019 \u2013 Jun 2019",
+      "location": "Luxembourg",
+      "keyPhrases": [
+        "Amazon transportation network",
+        "Amazon\u2019s transportation network",
+        "scheduling SQL jobs",
+        "Amazon teams",
+        "main project",
+        "software technologies",
+        "additional visibility",
+        "web-based application",
+        "week",
+        "hours of manual labor",
+        "operational decision making",
+        "Java",
+        "lot",
+        "outputs",
+        "human effort",
+        "AWS",
+        "Excel"
+      ]
+    },
+    {
+      "companyName": "SAP Concur",
+      "jobTitle": "Software Engineer Intern",
+      "dateRange": "Jul 2018 \u2013 Jan 2019",
+      "location": "Prague, The Capital, Czech Republic",
+      "keyPhrases": [
+        "team\u2019s efficiency",
+        "day duties",
+        "SAP\u2019s major databases",
+        "Development of SAP\u2019s internal applications",
+        "user interface of team\u2019s Angular web apps",
+        "monitoring communication",
+        "handling",
+        "internship program",
+        "market",
+        "best technical interns of SAP's Summer",
+        "usability",
+        "existing Java APIs",
+        "business departments",
+        "DevOps philosophy",
+        "new features",
+        "deployment pipelines",
+        "experience"
+      ]
+    },
+    {
+      "companyName": "Sator IT",
+      "jobTitle": "Dotnet Developer",
+      "dateRange": "Aug 2016 \u2013 May 2017",
+      "location": "Prague, The Capital, Czech Republic",
+      "keyPhrases": [
+        "running C# .Net web reservation system",
+        "main responsibilities",
+        "best possible user experience",
+        "customer requirements",
+        "client",
+        "server API",
+        "business",
+        "JavaScript",
+        "responsibility"
+      ]
+    }
+  ],
+  "schools": [
+    {
+      "schoolName": "Charles University in Prague",
+      "degree": "Master's degree",
+      "degreeSpec": "Pure Mathematics",
+      "dateRange": "2018 \u2013 2019",
+      "keyPhrases": [
+        "Artificial intelligence",
+        "Machine learning"
+      ]
+    },
+    {
+      "schoolName": "Charles University in Prague",
+      "degree": "Bachelor's degree",
+      "degreeSpec": "Mathematics and Computer Science",
+      "dateRange": "2015 \u2013 2018",
+      "keyPhrases": ""
+    }
+  ],
+  "skills": [
+    [
+      {
+        "name": "Mathematics",
+        "endorsements": "9"
+      },
+      {
+        "name": "Programming",
+        "endorsements": "8"
+      },
+      {
+        "name": "Public Speaking",
+        "endorsements": "5"
+      },
+      {
+        "name": "Statistics",
+        "endorsements": "2"
+      },
+      {
+        "name": "Machine Learning",
+        "endorsements": "0"
+      },
+      {
+        "name": "Object-Oriented Programming (OOP)",
+        "endorsements": "4"
+      },
+      {
+        "name": "Software Development",
+        "endorsements": "2"
+      },
+      {
+        "name": "Python",
+        "endorsements": "4"
+      },
+      {
+        "name": "Java",
+        "endorsements": "5"
+      },
+      {
+        "name": "C#",
+        "endorsements": "2"
+      },
+      {
+        "name": "ASP.NET",
+        "endorsements": "0"
+      },
+      {
+        "name": ".NET MVC",
+        "endorsements": "0"
+      },
+      {
+        "name": "HTML",
+        "endorsements": "0"
+      },
+      {
+        "name": "JavaScript",
+        "endorsements": "2"
+      },
+      {
+        "name": "CSS",
+        "endorsements": "0"
+      },
+      {
+        "name": "SQL",
+        "endorsements": "3"
+      },
+      {
+        "name": "Microsoft Word",
+        "endorsements": "0"
+      },
+      {
+        "name": "Microsoft Excel",
+        "endorsements": "0"
+      },
+      {
+        "name": "Microsoft PowerPoint",
+        "endorsements": "0"
+      },
+      {
+        "name": "Microsoft Office",
+        "endorsements": "0"
+      },
+      {
+        "name": "Python (Programming Language)",
+        "endorsements": "1"
+      },
+      {
+        "name": "Teaching",
+        "endorsements": "3"
+      },
+      {
+        "name": "Sports Coaching",
+        "endorsements": "1"
+      },
+      {
+        "name": "Leadership",
+        "endorsements": "1"
+      },
+      {
+        "name": "Linear Algebra",
+        "endorsements": "1"
+      }
+    ]
+  ]
+}

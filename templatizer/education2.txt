@@ -1,0 +1,80 @@
+*EDUCATION + KEYPHRASES TEMPLATE
+
+*Three institutions or last 5 years. 
+
+Well, I’ll start from a {start_few} years ago 
+Well, I would like to start from a {start_few} years ago 
+Well, I would like to start in {start_YEAR},
+
+and then eventually describe my current situation. 
+and then I will describe my current situation. 
+
+If my memory serves me well
+If I remember correctly 
+
+back in around {start_year}, I started studying at {EDU-organisation-1} where my knowledge of {subject-1} really started to develop.
+back in around {start_year}, I started studying {subject_1}, at {EDU-organisation-1}.
+
+I was there for roughly {start years},
+I was there for roughly {start_years}, 
+
+After some hard work I got my {qualification_1}. 
+
+ While at {EDU-organisation-1}, I started really developing my skills in {language-1}, and {language-2}. 
+
+I also improved my knowledge of {language-1}. 
+
+***Start {EDU-organisation-2 / or next 2 years???} ***
+
+After this 
+Following this
+
+I decided to
+I wanted to 
+
+deepen my knowledge of {subject-2} at {EDU-organisation-2}.
+start learning {subject-2} at {EDU-organisation-2}.
+
+
+{EDU-organisation-2} was a valuable experience because I definitely improved my knowledge of {subject-1}. 
+{EDU-organisation-2} was a valuable experience because I definitely improved my knowledge of {subject-2}. 
+
+{EDU-organisation-2} was a valuable experience because I discovered {subject-3}. 
+
+At {EDU-organisation-2} I started to code with {language-3}, and continued improving my knowledge and usage of {language-1}.
+At {EDU-organisation-2} I started to code with {language-3}, and continued improving my knowledge and usage of {language-2}. 
+
+
+************
+
+Then around early {edu3_year} 
+Then around late {edu3_year} 
+Then around mid {edu3_year} 
+Then in early {edu3_year} 
+Then in late {edu3_year} 
+Then in mid {edu3_year} 
+
+
+I started at {EDU-organisation-3}
+I continued at {EDU-organisation-3}
+
+And finally finished with a {qualification-3}
+And graduated with a {qualification-3}
+
+Here I continued using language(s) {language-1} and {language-2}.
+Here I continued using language(s) {language-1}, {language-2}, and {language-3}.
+
+
+****CURRENT SITUATION***** 
+
+This brings me to my current situation,
+
+I am currently still at {EDU-organisation-C} studying {subject-1,2,3}. 
+I will finish in {end_year-C}
+I will finish in {end_years-C} 
+
+Whereby I have now completed my academic courses and I’m 
+
+working full time at {work-place-C}.
+looking forward to starting my career.
+
