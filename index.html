@@ -110,17 +110,19 @@
 
 
             <div v-else-if="loginstage==4">
-                Here's your result! {{ resulttext }}
+                You can use this text during your interview.
+                <p>{{ resulttext }}</p>
                 <audio controls autoplay>
                     <source v-bind:src="soundFilePath">
                 </audio>
+                <br><button v-on:click="window.location.href='#'"></button>
             </div>
 
 
 
         </b-container>
     </div>
-    <script type="text/javascript ">
+    <script type=" text/javascript ">
         var app = new Vue({
             el: '#app',
             data: {
@@ -136,7 +138,7 @@
                     // this is the preparation call, and in 10 seconds we'll make the real call
                     axios.get('https://junctionbudapestfunctions3.azurewebsites.net/api/PrepareDataForUser?name=' + this.user + '&code=gg8%2FReTLv9NImka12PsuxVzOXdBKKiFPm3Y2acV2ycx0vjXjR6CVFw%3D%3D').then(response1 => {
                         //.get('https://junctionbudapestfunctions3.azurewebsites.net/api/PrepareDataForUser?name=yuri&code=gg8/ReTLv9NImka12PsuxVzOXdBKKiFPm3Y2acV2ycx0vjXjR6CVFw==')
-                        console.log("first request completed");
+                        console.log("first request completed ");
 
                         this.intervalid1 = setInterval(function() {
                             // 10 seconds passed, let's make the request to fetch the processed page
@@ -145,7 +147,7 @@
                                 //.get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?name=yuri&code=GKzujHgeCZrl6P5JpNqf93gYS/ySpIXFVJkNVo8YOru8JJdDHCfkAQ==')
                                 console.log("Second request completed with response: " + JSON.stringify(response2));
                                 //alert(response.status);
-                                if (response2.data.status == "success") {
+                                if (response2.data.status == "success ") {
                                     this.soundFilePath = response2.data.soundUrl;
                                     this.resulttext = response2.data.description;
 
