@@ -140,8 +140,8 @@
                             axios.get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?name=yuri&code=GKzujHgeCZrl6P5JpNqf93gYS%2FySpIXFVJkNVo8YOru8JJdDHCfkAQ%3D%3D').then(response => {
                                 //.get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?name=yuri&code=GKzujHgeCZrl6P5JpNqf93gYS/ySpIXFVJkNVo8YOru8JJdDHCfkAQ==')
 
-                                this.soundFilePath = result['soundFile'];
-                                this.resulttext = result['textDescription'];
+                                this.soundFilePath = response['soundFile'];
+                                this.resulttext = response['textDescription'];
 
                                 this.loginstage = 4;
 
