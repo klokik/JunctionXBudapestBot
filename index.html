@@ -120,42 +120,42 @@
     </div>
     <script type="text/javascript ">
         var app = new Vue({
-                    el: '#app',
-                    data: {
-                        loginstage: 1,
-                        resulttext: '',
-                        soundFilePath: '',
-                    },
-                    methods: {
-                        preparationrequest: function() {
+            el: '#app',
+            data: {
+                loginstage: 1,
+                resulttext: '',
+                soundFilePath: '',
+            },
+            methods: {
 
-                        }
-                        makerequest: function() {
-                            this.loginstage = 3;
-                            // this is the preparation call, and in 10 seconds we'll make the real call
-                            axios
-                                .get('https://junctionbudapestfunctions3.azurewebsites.net/api/PrepareDataForUser?code=gg8/ReTLv9NImka12PsuxVzOXdBKKiFPm3Y2acV2ycx0vjXjR6CVFw==&name=yuri')
-                                .then(response => {
-                                        this.intervalid1 = setInterval(function() {
-                                            // 10 seconds passed, let's make the request to fetch the processed page
+                makerequest: function() {
+                    this.loginstage = 3;
+                    // this is the preparation call, and in 10 seconds we'll make the real call
+                    axios.get('https://junctionbudapestfunctions3.azurewebsites.net/api/PrepareDataForUser?name=yuri&code=gg8%2FReTLv9NImka12PsuxVzOXdBKKiFPm3Y2acV2ycx0vjXjR6CVFw%3D%3D').then(response => {
+                        //.get('https://junctionbudapestfunctions3.azurewebsites.net/api/PrepareDataForUser?name=yuri&code=gg8/ReTLv9NImka12PsuxVzOXdBKKiFPm3Y2acV2ycx0vjXjR6CVFw==')
 
-                                            axios
-                                                .get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?code=GKzujHgeCZrl6P5JpNqf93gYS/ySpIXFVJkNVo8YOru8JJdDHCfkAQ==&name=yuri')
-                                                .then(response => {
+                        this.intervalid1 = setInterval(function() {
+                            // 10 seconds passed, let's make the request to fetch the processed page
 
+                            axios.get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?name=yuri&code=GKzujHgeCZrl6P5JpNqf93gYS%2FySpIXFVJkNVo8YOru8JJdDHCfkAQ%3D%3D').then(response => {
+                                //.get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?name=yuri&code=GKzujHgeCZrl6P5JpNqf93gYS/ySpIXFVJkNVo8YOru8JJdDHCfkAQ==')
 
-                                                    this.soundFilePath = result['soundFile'];
-                                                    this.resulttext = result['textDescription'];
+                                this.soundFilePath = result['soundFile'];
+                                this.resulttext = result['textDescription'];
 
-                                                    this.loginstage = 4;
+                                this.loginstage = 4;
 
 
-                                                })
+                                //})
 
-                                        }.bind(this), 10000);
-                                    }
-                                }
-                        }
+                                //}.bind(this), 10000);
+
+                            });
+                        });
+
                     });
+                }
+            }
+        });
     </script>
 </body>
