@@ -1,0 +1,360 @@
+
+*EDUCATION TEMPLATE
+
+*Three institutions or last 5 years. 
+
+Well, I’ll start from a {start_few} years ago 
+Well, I would like to start from a {start_few} years ago 
+Well, I would like to start in {start_YEAR},
+
+and then eventually describe my current situation. 
+and then I will describe my current situation. 
+
+If my memory serves me well
+If I remember correctly 
+
+back in around {start_year}, I started studying at {EDU-organisation-1} where my knowledge of {edu1_subject} really started to develop. 
+back in around {start_year}, I started studying {edu1_subject}, at {EDU-organisation-1}.
+
+I was there for roughly {edu1_years},
+I was there for roughly {edu1_years}, 
+
+After some hard work I got my {edu1_qualification}. 
+
+***Start {EDU-organisation-2 / or next 2 years???} ***
+
+After this 
+Following this
+
+I decided to
+I wanted to 
+
+deepen my knowledge of {edu2_subject} at {EDU-organisation-2}.
+start learning {edu2_subject} at {EDU-organisation-2}.
+
+
+{EDU-organisation-2} was a valuable experience because I definitely improved my knowledge of {edu2_subject-1}. 
+{EDU-organisation-2} was a valuable experience because I definitely improved my knowledge of {edu2_subject-2}. 
+
+{EDU-organisation-2} was a valuable experience because I discovered {edu2_subject-3}. 
+
+************
+
+Then around early {edu3_year} 
+Then around late {edu3_year} 
+Then around mid {edu3_year} 
+
+Then in early {edu3_year} 
+Then in late {edu3_year} 
+Then in mid {edu3_year} 
+
+
+I started at {EDU-organisation-3}
+I continued at {EDU-organisation-3}
+
+And finally finished with a {edu3_qualification}
+And graduated with a {edu3_qualification}
+
+In {edu3_subject-1,2,3}.
+
+****CURRENT SITUATION***** 
+
+This brings me to my current situation,
+
+I am currently still at {EDU-organisation-C} studying {eduC_subject-1,2,3}. 
+I will finish in {eduC_end_year}.
+
+Whereby I have now completed my academic courses and I’m
+
+working full time at {work-place-c}  
+Looking forward to starting my career (unemployed) 
+
+
+
+*CAREER / JOB TEMPLATE
+****Three workplaces or the last 5 years. ********
+Well as you can see I’ve worked at the same place for the last {work-years-c}. 
+
+Well, I’ll start from a {start_few} years ago 
+Well, I would like to start from a {start_few} years ago 
+Well, I would like to start in {start_YEAR},
+
+and then eventually describe my current job. 
+and then I will describe where I’m working at the moment.  
+
+If my memory serves me well
+If I remember correctly 
+
+back in around {work1_start_year}, I started working at {work-place-1} where my 
+knowledge of {work1_subject} really started to develop. 
+love of {start_subject} really started to develop. 
+
+back in around {start_year}, I started working at {start_work-place} as a {start_title}. 
+
+I was there for roughly {start years},
+I was there for roughly {start years}, 
+
+I was responsible for {start_task-1}, {start_task-2}, {start_task-3} 
+I think my best achievement or proudest moment at this place was {start_achievement}.
+
+I enjoyed it and learnt quite a lot but 
+
+eventually decided to change to {title-2}
+went for a promotion and got it.
+*got promoted to {title-2}.
+
+************job 2**************
+
+In the new position, 
+In the new job I got at {work-place-2}
+
+I think around {work2_year}, 
+
+I really strengthened my knowledge of {work2_skill-1}, {work2_skill-2} and {work2_skill-3}. 
+
+I stayed there for about {work2_years}. 
+
+************job 3**************
+
+Although it was a valuable experience,
+
+eventually I decided to change.
+I went for a promotion and got it. 
+
+This brings me to my current 
+
+job at {work-place-C}
+position of {title-C} at {work-place-C}. 
+
+I have been working here for about {work-years-C}. 
+
+
+
+  
+
+
+*SKILLS TEMPLATE
+
+I will have to say my strongest skill is {skill-1}, followed by {skill-2}, and {skill-3}. 
+
+Regarding interpersonal skills I think {skill-4}, is most likely the one I feel is my best. 
+
+
+
+
+*BLENDED TEMPLATE using the timeline as a guide (for a person studying and working simultaneously). 
+*TIMELINE DICTATES ORDER
+
+I’d like to give you an overview of what I’ve been doing for the last 5 years.  
+
+So I’m going to start in {start_year}, where I was working at {work-place-1}.
+So I’m going to start in {start_year}, where I was studying at {EDU-organisation-1}. 
+
+While I was at {EDU-organisation-1} I also worked as a {title-1}.
+While I was at {work-place-1} I also studied {edu1-subject-1}.
+
+I stayed at {work-place-1} for roughly {work-place1-years}. 
+I stayed at {EDU-organisation-1} for roughly {EDU-organisation-1-years}.
+
+I am currently still at {EDU-organisation-C}.
+I am currently still at {work-place-1}.
+
+{work-place-1} was a valuable experience because I definitely improved my knowledge of {work-subject-1}. 
+{EDU-organisation-C} was a valuable experience because I definitely improved my knowledge of {edu1-subject-1}.
+
+At {work-place-1} I was writing in {language-1}, and {language-2}.
+At {EDU-organisation-C} I was writing in {language-1}, and {language-2}.
+
+I would say {soft-skill-1}, {soft-skill-2}, and {soft-skill-3} were among the skills I utilised the most 
+
+{work-place-1} has been a valuable experience because I’m definitely improving my knowledge of {subject-1}.
+{EDU-organisation-1} has been a valuable experience because I’m definitely improving my knowledge of {subject-1}.
+
+At {work-place-1} I’ve also been writing in {language-1}, and {language-2}.
+At {EDU-organisation-C} I’ve also been writing in {language-1}, and {language-2}.
+
+I would say {soft-skill-1}, {soft-skill-2}, and {soft-skill-3} are among the skills I’m using the most 
+
+I think over the last few years I’ve really found that {skill-1} is definitely one of my strongest, followed by {skill-2}. 
+
+
+***********************************
+
+After this 
+Following this
+
+I decided to
+I wanted to 
+
+Work as a {title-2}.
+Study {subject-2}.
+
+{EDU-organisation-2} was a valuable experience because I definitely improved my knowledge of {subject-1}.
+{work-place-1} was a valuable experience because I definitely improved my knowledge of {subject-1}. 
+
+
+
+
+
+
+
+
+
+
+
+*******next part according to timeline*****
+*OVERLAP: working and studying at the same time 
+
+*Just ditched above for now to work on improving current templates by adding KEY PHRASES. 
+
+
+
+
+
+
+*EDUCATION + KEYPHRASES TEMPLATE
+
+*Three institutions or last 5 years. 
+
+Well, I’ll start from a {start_few} years ago 
+Well, I would like to start from a {start_few} years ago 
+Well, I would like to start in {start_YEAR},
+
+and then eventually describe my current situation. 
+and then I will describe my current situation. 
+
+If my memory serves me well
+If I remember correctly 
+
+back in around {start_year}, I started studying at {EDU-organisation-1} where my knowledge of {subject-1} really started to develop.
+back in around {start_year}, I started studying {subject_1}, at {EDU-organisation-1}.
+
+I was there for roughly {start years},
+I was there for roughly {start_years}, 
+
+After some hard work I got my {qualification_1}. 
+
+ While at {EDU-organisation-1}, I started really developing my skills in {language-1}, and {language-2}. 
+
+I also improved my knowledge of {language-1}. 
+
+***Start {EDU-organisation-2 / or next 2 years???} ***
+
+After this 
+Following this
+
+I decided to
+I wanted to 
+
+deepen my knowledge of {subject-2} at {EDU-organisation-2}.
+start learning {subject-2} at {EDU-organisation-2}.
+
+
+{EDU-organisation-2} was a valuable experience because I definitely improved my knowledge of {subject-1}. 
+{EDU-organisation-2} was a valuable experience because I definitely improved my knowledge of {subject-2}. 
+
+{EDU-organisation-2} was a valuable experience because I discovered {subject-3}. 
+
+At {EDU-organisation-2} I started to code with {language-3}, and continued improving my knowledge and usage of {language-1}.
+At {EDU-organisation-2} I started to code with {language-3}, and continued improving my knowledge and usage of {language-2}. 
+
+
+************
+
+Then around early {edu3_year} 
+Then around late {edu3_year} 
+Then around mid {edu3_year} 
+Then in early {edu3_year} 
+Then in late {edu3_year} 
+Then in mid {edu3_year} 
+
+
+I started at {EDU-organisation-3}
+I continued at {EDU-organisation-3}
+
+And finally finished with a {qualification-3}
+And graduated with a {qualification-3}
+
+Here I continued using language(s) {language-1} and {language-2}.
+Here I continued using language(s) {language-1}, {language-2}, and {language-3}.
+
+
+****CURRENT SITUATION***** 
+
+This brings me to my current situation,
+
+I am currently still at {EDU-organisation-C} studying {subject-1,2,3}. 
+I will finish in {end_year-C}
+I will finish in {end_years-C} 
+
+Whereby I have now completed my academic courses and I’m 
+working full time at {work-place-C}  
+Looking forward to starting my career (unemployed) 
+
+
+
+
+*CAREER / JOB + KEYPHRASES TEMPLATE
+
+****Three workplaces or the last 5 years. ********
+Well as you can see I’ve worked at the same place for the last {work_years-C}. 
+
+Well, I’ll start from a {start_few} years ago 
+Well, I would like to start from a {start_few} years ago 
+Well, I would like to start in {start_YEAR},
+
+and then eventually describe my current job. 
+and then I will describe where I’m working at the moment.  
+
+If my memory serves me well
+If I remember correctly 
+
+back in around {start_year}, I started working at {work-place-1} where my 
+
+knowledge of {subject-1} really started to develop. 
+love of {subject-1} really started to develop. 
+
+back in around {work_year-1}, I started working at {work-place-1} as a {title-1}. 
+
+I was there for roughly {start_years},
+I was there for roughly {start_years}, 
+
+I was responsible for {task-1}, {task-2}, {task-3}.
+I think my best achievement or proudest moment at this place was {achievement-1}.
+
+I enjoyed it and learnt quite a lot but 
+eventually decided to change.
+went for a promotion and got it.
+got promoted to {title-2}.
+
+ While at {work-place-1}, I started really developing my skills in {language-1}, and {language-2}. 
+
+I also improved my knowledge of {language-3}. 
+
+
+************job 2**************
+
+In the new position, 
+In the new job I got at {work-place-2}
+
+I think around {work2_year}, 
+
+I really strengthened my knowledge of {skill-1}, {skill-2} and {skill-3}. 
+
+I stayed there for about {work2_years}. 
+
+Here I continued using language(s) {language-1}, {language-2}, and {language-3}.
+
+************job 3**************
+
+Although it was a valuable experience, eventually I decided to change.
+I went for a promotion and got it. 
+
+This brings me to my current
+
+job at {work-place-C}
+position of {title-C} at {work-place-C}. 
+
+I have been working here for about {work_years_C}. 
+
+At {work-place-C} I’m coding in {language-1} pretty much everyday. 

@@ -1,0 +1,49 @@
+*BLENDED TEMPLATE using the timeline as a guide (for a person studying and working simultaneously). 
+*TIMELINE DICTATES ORDER
+
+I’d like to give you an overview of what I’ve been doing for the last 5 years.  
+
+So I’m going to start in {start_year}, where I was working at {work-place-1}.
+So I’m going to start in {start_year}, where I was studying at {EDU-organisation-1}. 
+
+While I was at {EDU-organisation-1} I also worked as a {title-1}.
+While I was at {work-place-1} I also studied {edu1-subject-1}.
+
+I stayed at {work-place-1} for roughly {work-place1-years}. 
+I stayed at {EDU-organisation-1} for roughly {EDU-organisation-1-years}.
+
+I am currently still at {EDU-organisation-C}.
+I am currently still at {work-place-1}.
+
+{work-place-1} was a valuable experience because I definitely improved my knowledge of {work-subject-1}. 
+{EDU-organisation-C} was a valuable experience because I definitely improved my knowledge of {edu1-subject-1}.
+
+At {work-place-1} I was writing in {language-1}, and {language-2}.
+At {EDU-organisation-C} I was writing in {language-1}, and {language-2}.
+
+I would say {soft-skill-1}, {soft-skill-2}, and {soft-skill-3} were among the skills I utilised the most 
+
+{work-place-1} has been a valuable experience because I’m definitely improving my knowledge of {subject-1}.
+{EDU-organisation-1} has been a valuable experience because I’m definitely improving my knowledge of {subject-1}.
+
+At {work-place-1} I’ve also been writing in {language-1}, and {language-2}.
+At {EDU-organisation-C} I’ve also been writing in {language-1}, and {language-2}.
+
+I would say {soft-skill-1}, {soft-skill-2}, and {soft-skill-3} are among the skills I’m using the most 
+
+I think over the last few years I’ve really found that {skill-1} is definitely one of my strongest, followed by {skill-2}. 
+
+
+***********************************
+
+After this 
+Following this
+
+I decided to
+I wanted to 
+
+Work as a {title-2}.
+Study {subject-2}.
+
+{EDU-organisation-2} was a valuable experience because I definitely improved my knowledge of {subject-1}.
+{work-place-1} was a valuable experience because I definitely improved my knowledge of {subject-1}. 

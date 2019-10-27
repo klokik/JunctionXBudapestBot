@@ -1,0 +1,70 @@
+*EDUCATION TEMPLATE
+
+*Three institutions or last 5 years. 
+
+Well, I’ll start from a {start_few} years ago 
+Well, I would like to start from a {start_few} years ago 
+Well, I would like to start in {start_YEAR},
+
+and then eventually describe my current situation. 
+and then I will describe my current situation. 
+
+If my memory serves me well
+If I remember correctly 
+
+back in around {start_year}, I started studying at {EDU-organisation-1} where my knowledge of {edu1_subject} really started to develop. 
+back in around {start_year}, I started studying {edu1_subject}, at {EDU-organisation-1}.
+
+I was there for roughly {edu1_years},
+I was there for roughly {edu1_years}, 
+
+After some hard work I got my {edu1_qualification}. 
+
+***Start {EDU-organisation-2 / or next 2 years???} ***
+
+After this 
+Following this
+
+I decided to
+I wanted to 
+
+deepen my knowledge of {edu2_subject} at {EDU-organisation-2}.
+start learning {edu2_subject} at {EDU-organisation-2}.
+
+
+{EDU-organisation-2} was a valuable experience because I definitely improved my knowledge of {edu2_subject-1}. 
+{EDU-organisation-2} was a valuable experience because I definitely improved my knowledge of {edu2_subject-2}. 
+
+{EDU-organisation-2} was a valuable experience because I discovered {edu2_subject-3}. 
+
+************
+
+Then around early {edu3_year} 
+Then around late {edu3_year} 
+Then around mid {edu3_year} 
+
+Then in early {edu3_year} 
+Then in late {edu3_year} 
+Then in mid {edu3_year} 
+
+
+I started at {EDU-organisation-3}
+I continued at {EDU-organisation-3}
+
+And finally finished with a {edu3_qualification}
+And graduated with a {edu3_qualification}
+
+In {edu3_subject-1,2,3}.
+
+****CURRENT SITUATION***** 
+
+This brings me to my current situation,
+
+I am currently still at {EDU-organisation-C} studying {eduC_subject-1,2,3}. 
+I will finish in {eduC_end_year}.
+
+Whereby I have now completed my academic courses and I’m
+
+working full time at {work-place-c}.
+Looking forward to starting my career.
+

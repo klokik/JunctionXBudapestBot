@@ -1,0 +1,65 @@
+
+*CAREER / JOB + KEYPHRASES TEMPLATE
+
+****Three workplaces or the last 5 years. ********
+As you can see I’ve worked at the same place for the last {work_years-C}. 
+
+Well, I’ll start from a {start_few} years ago 
+Well, I would like to start from a {start_few} years ago 
+Well, I would like to start in {start_YEAR},
+
+and then eventually describe my current job. 
+and then I will describe where I’m working at the moment.  
+
+If my memory serves me well
+If I remember correctly 
+
+back in around {start_year}, I started working at {work-place-1} where my 
+
+knowledge of {subject-1} really started to develop. 
+love of {subject-1} really started to develop. 
+
+back in around {work_year-1}, I started working at {work-place-1} as a {title-1}. 
+
+I was there for roughly {start_years},
+I was there for roughly {start_years}, 
+
+I was responsible for {task-1}, {task-2}, {task-3}.
+I think my best achievement or proudest moment at this place was {achievement-1}.
+
+I enjoyed it and learnt quite a lot but 
+eventually decided to change.
+went for a promotion and got it.
+got promoted to {title-2}.
+
+ While at {work-place-1}, I started really developing my skills in {language-1}, and {language-2}. 
+
+I also improved my knowledge of {language-3}. 
+
+
+************job 2**************
+
+In the new position, 
+In the new job I got at {work-place-2}
+
+I think around {work2_year}, 
+
+I really strengthened my knowledge of {skill-1}, {skill-2} and {skill-3}. 
+
+I stayed there for about {work2_years}. 
+
+Here I continued using language(s) {language-1}, {language-2}, and {language-3}.
+
+************job 3**************
+
+Although it was a valuable experience, eventually I decided to change.
+I went for a promotion and got it.
+
+This brings me to my current
+
+job at {work-place-C}
+position of {title-C} at {work-place-C}. 
+
+I have been working here for about {work_years_C}. 
+
+At {work-place-C} I’m coding in {language-1} pretty much everyday. 
