@@ -61,7 +61,8 @@
                             <code id="consumer_login__text_plain__invalid_username_with_phone_v2" style="display: none;">
                                             <!--"Hmm, we don’t recognize that phone number. Please try again"-->
                                             </code><code id="consumer_login__text_plain__no_username" style="display: none;"><!--"Please enter an email address or phone number"--></code>
-                            <div class="form__input--floating"><input id="username" name="session_key" type="text" aria-describedby="error-for-username" required validation="email|tel" autofocus aria-label="Email or Phone" /><label class="form__label--floating" for="username" aria-hidden="true">Email or Phone</label>
+                            <div class="form__input--floating"><input id="username" name="session_key" type="text" aria-describedby="error-for-username" required validation="email|tel" autofocus aria-label="Email or Phone" v-model="user" /><label class="form__label--floating" for="username"
+                                    aria-hidden="true">Email or Phone</label>
                                 <div error-for="username" id="error-for-username" class="form__label--error  hidden" role="alert" aria-live="assertive"></div>
                             </div><code id="domainSuggestion" style="display: none;"><!--false--></code><input type="hidden" name="ac" value="0" /><input type="hidden" name="sIdString" value="accde527-0701-442c-9a8c-6f2c109dfc1b" /><input type="hidden" name="controlId"
                                 value="d_checkpoint_lg_consumerLogin_oauth-login_submit_button" /><input type="hidden" name="parentPageKey" value="d_checkpoint_lg_consumerLogin_oauth" /><input type="hidden" name="pageInstance" value="urn:li:page:d_checkpoint_lg_consumerLogin_oauth;ce/xrAnuS1ShVrvMMx4sgw=="
@@ -125,20 +126,21 @@
                 loginstage: 1,
                 resulttext: '',
                 soundFilePath: '',
+                user: 'yuri',
             },
             methods: {
 
                 makerequest: function() {
                     this.loginstage = 3;
                     // this is the preparation call, and in 10 seconds we'll make the real call
-                    axios.get('https://junctionbudapestfunctions3.azurewebsites.net/api/PrepareDataForUser?name=yuri&code=gg8%2FReTLv9NImka12PsuxVzOXdBKKiFPm3Y2acV2ycx0vjXjR6CVFw%3D%3D').then(response1 => {
+                    axios.get('https://junctionbudapestfunctions3.azurewebsites.net/api/PrepareDataForUser?name=' + this.user + '&code=gg8%2FReTLv9NImka12PsuxVzOXdBKKiFPm3Y2acV2ycx0vjXjR6CVFw%3D%3D').then(response1 => {
                         //.get('https://junctionbudapestfunctions3.azurewebsites.net/api/PrepareDataForUser?name=yuri&code=gg8/ReTLv9NImka12PsuxVzOXdBKKiFPm3Y2acV2ycx0vjXjR6CVFw==')
                         console.log("first request completed");
 
                         this.intervalid1 = setInterval(function() {
                             // 10 seconds passed, let's make the request to fetch the processed page
 
-                            axios.get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?name=yuri&code=GKzujHgeCZrl6P5JpNqf93gYS%2FySpIXFVJkNVo8YOru8JJdDHCfkAQ%3D%3D').then(response2 => {
+                            axios.get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?name=' + this.user + '&code=GKzujHgeCZrl6P5JpNqf93gYS%2FySpIXFVJkNVo8YOru8JJdDHCfkAQ%3D%3D').then(response2 => {
                                 //.get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?name=yuri&code=GKzujHgeCZrl6P5JpNqf93gYS/ySpIXFVJkNVo8YOru8JJdDHCfkAQ==')
                                 console.log("Second request completed with response: " + JSON.stringify(response2));
                                 //alert(response.status);
