@@ -122,7 +122,8 @@
 
         </b-container>
     </div>
-    <script type=" text/javascript ">
+
+    <script type="text/javascript">
         var app = new Vue({
             el: '#app',
             data: {
@@ -145,7 +146,7 @@
                             axios.get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?name=' + this.user + '&code=GKzujHgeCZrl6P5JpNqf93gYS%2FySpIXFVJkNVo8YOru8JJdDHCfkAQ%3D%3D').then(response2 => {
                                 console.log("Second request completed with response: " + JSON.stringify(response2));
                                 //alert(response.status);
-                                if (response2.data.status == "success ") {
+                                if (response2.data.status == "success") {
                                     this.soundFilePath = response2.data.soundUrl;
                                     this.resulttext = response2.data.description;
 
