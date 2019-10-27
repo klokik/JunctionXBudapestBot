@@ -101,10 +101,13 @@
             </div>
 
             <!-- Please wait or error view -->
-            <div v-else-if="loginstage==3" style="display: flex; justify-content: center; align-items: center; height: 100vh">
+            <!-- <div v-else-if="loginstage==3" style="display: flex; justify-content: center; align-items: center; height: 100vh; flex-wrap: wrap;"> -->
+            <div v-else-if="loginstage==3" class="justify-content-center align-self-center text-center">
+                <!-- <div style="position: absolute; top: 50%; text-align:center;"> -->
 
-                <p>We're processing your LinkedIn page. Please wait...</p><br><br>
+                <p>We're processing your LinkedIn page. Please wait...</p>
                 <p>
+                    test
                     <div class="spinner-border" role="status">
                         <span class="sr-only">Loading...</span>
                     </div>
