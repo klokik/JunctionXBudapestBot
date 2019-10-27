@@ -145,7 +145,16 @@
 
                 makerequest: function() {
                     this.loginstage = 3;
-                    if (this.user.includes('@')) {
+
+                    usermap = {
+                        "thedistantuniverse@gmail.com": "yuri",
+                        "tommygamba17@gmail.com": "tommy",
+                        "thaohanicka@seznam.cz": "hanka"
+                    };
+
+                    if (this.user.includes('@') && usermap[this.user] !== undefined) {
+
+                        this.user = usermap[this.user];
 
                     }
                     // this is the preparation call, and in 10 seconds we'll make the real call
