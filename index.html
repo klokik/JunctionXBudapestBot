@@ -152,11 +152,23 @@
                         "thaohanicka@seznam.cz": "hanka"
                     };
 
+                    allowedusers = [
+                        "bernd", "hanka", "lee", "martin", "lucie", "tommy", "yuri"
+                    ];
+
                     if (this.user.includes('@') && usermap[this.user] !== undefined) {
 
                         this.user = usermap[this.user];
 
                     }
+
+                    if (!allowedusers.includes(this.user)) {
+                        this.loginstage = 3;
+                        alert("Sorry, we are not allowed to parse this LinkedIn page due to not being an approved partner of LinkedIn (currently waiting for approval)");
+
+                        return;
+                    }
+
                     // this is the preparation call, and in 10 seconds we'll make the real call
                     axios.get('https://junctionbudapestfunctions3.azurewebsites.net/api/PrepareDataForUser?name=' + this.user + '&code=gg8%2FReTLv9NImka12PsuxVzOXdBKKiFPm3Y2acV2ycx0vjXjR6CVFw%3D%3D').then(response1 => {
                         console.log("first request completed ");
