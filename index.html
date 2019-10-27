@@ -142,9 +142,9 @@
                                 //.get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?name=yuri&code=GKzujHgeCZrl6P5JpNqf93gYS/ySpIXFVJkNVo8YOru8JJdDHCfkAQ==')
                                 console.log("Second request completed with response: " + JSON.stringify(response2));
                                 //alert(response.status);
-                                if (response2.status == "success") {
-                                    this.soundFilePath = response2.soundUrl;
-                                    this.resulttext = response2.description;
+                                if (response2.data.status == "success") {
+                                    this.soundFilePath = response2.data.soundUrl;
+                                    this.resulttext = response2.data.description;
 
                                     this.loginstage = 4;
                                 } else {
