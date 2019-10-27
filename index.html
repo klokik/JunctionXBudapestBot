@@ -120,34 +120,42 @@
     </div>
     <script type="text/javascript ">
         var app = new Vue({
-            el: '#app',
-            data: {
-                loginstage: 1,
-                resulttext: '',
-                soundFilePath: '',
-            },
-            methods: {
-                makerequest: function() {
-                    this.loginstage = 3;
-                    axios
-                    //.get('https://api.coindesk.com/v1/bpi/currentprice.json')
-                        .get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?code=GKzujHgeCZrl6P5JpNqf93gYS/ySpIXFVJkNVo8YOru8JJdDHCfkAQ==')
-                        .then(response => {
+                    el: '#app',
+                    data: {
+                        loginstage: 1,
+                        resulttext: '',
+                        soundFilePath: '',
+                    },
+                    methods: {
+                        preparationrequest: function() {
+
+                        }
+                        makerequest: function() {
+                            this.loginstage = 3;
+                            // this is the preparation call, and in 10 seconds we'll make the real call
+                            axios
+                                .get('https://junctionbudapestfunctions3.azurewebsites.net/api/PrepareDataForUser?code=gg8/ReTLv9NImka12PsuxVzOXdBKKiFPm3Y2acV2ycx0vjXjR6CVFw==')
+                                .then(response => {
+                                        this.intervalid1 = setInterval(function() {
+                                            // 10 seconds passed, let's make the request to fetch the processed page
+
+                                            axios
+                                                .get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?code=GKzujHgeCZrl6P5JpNqf93gYS/ySpIXFVJkNVo8YOru8JJdDHCfkAQ==')
+                                                .then(response => {
 
 
-                            this.soundFilePath = result['soundFile'];
-                            this.resulttext = result['textDescription'];
+                                                    this.soundFilePath = result['soundFile'];
+                                                    this.resulttext = result['textDescription'];
 
-                            this.loginstage = 4;
-
-
+                                                    this.loginstage = 4;
 
 
+                                                })
 
-                            // (this.info = response);
-                        })
-                }
-            }
-        });
+                                        }.bind(this), 10000);
+                                    }
+                                }
+                        }
+                    });
     </script>
 </body>
