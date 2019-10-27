@@ -171,7 +171,7 @@
 
                         // this is the preparation call, and in 10 seconds we'll make the real call
                         axios.get('https://junctionbudapestfunctions3.azurewebsites.net/api/PrepareDataForUser?name=' + this.user + '&code=gg8%2FReTLv9NImka12PsuxVzOXdBKKiFPm3Y2acV2ycx0vjXjR6CVFw%3D%3D').then(response1 => {
-                            console.log("first request completed ");
+                            console.log("first request completed with response: " + JSON.stringify(response1));
                             if (response1.data.statusCode != 200) {
                                 //alert('');
                                 this.loginstage = 1;
