@@ -106,8 +106,12 @@
                 </div>
             </div>
 
-            <div v-else-if="loginstage==4 ">
+
+            <div v-else-if="loginstage==4">
                 Here's your result! {{ resulttext }}
+                <audio controls autoplay>
+                    <source v-bind:src="soundFilePath">
+                </audio>
             </div>
 
 
@@ -120,18 +124,27 @@
             data: {
                 loginstage: 1,
                 resulttext: '',
+                soundFilePath: '',
             },
             methods: {
                 makerequest: function() {
                     this.loginstage = 3;
                     axios
                     //.get('https://api.coindesk.com/v1/bpi/currentprice.json')
-                        .get('https://www.bensound.com/bensound-music/bensound-summer.mp3')
+                        .get('https://junctionbudapest.azurewebsites.net/api/getAudioFromTextDescription?code=l2xFamnIuENiyVF9xYlDMNuLWqXzrPF7kV/MW8kt9HCxJ0pfCaj4gg==')
                         .then(response => {
-                            this.loginstage = 4;
-                            this.resulttext = JSON.stringify(response);
 
-                            (this.info = response);
+
+                            this.soundFilePath = result['soundFile'];
+                            this.resulttext = result['textDescription'];
+
+                            this.loginstage = 4;
+
+
+
+
+
+                            // (this.info = response);
                         })
                 }
             }
