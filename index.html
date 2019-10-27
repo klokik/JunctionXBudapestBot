@@ -101,7 +101,7 @@
             </div>
 
             <!-- Please wait or error view -->
-            <div v-else-if="loginstage==3" class="text-center">
+            <div v-else-if="loginstage==3" class="text-center row h-50">
                 We're processing your LinkedIn page. Please wait...<br>
                 <div class="spinner-border" role="status">
                     <span class="sr-only">Loading...</span>
@@ -109,10 +109,12 @@
             </div>
 
 
-            <div v-else-if="loginstage==4">
-                You can use this text during your interview.
-                <p>{{ resulttext }}</p>
-                <audio controls autoplay>
+            <div v-else-if="loginstage==4" class="text-center">
+                <p>You can use this text during your interview.</p>
+                <p>
+                    <quote>{{ resulttext }}</quote>
+                </p>
+                <audio controls autoplay auto>
                     <source v-bind:src="soundFilePath">
                 </audio>
                 <!-- <br><button v-on:click='window.location.href="#"'></button> -->
