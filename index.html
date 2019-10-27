@@ -134,13 +134,13 @@
                             this.loginstage = 3;
                             // this is the preparation call, and in 10 seconds we'll make the real call
                             axios
-                                .get('https://junctionbudapestfunctions3.azurewebsites.net/api/PrepareDataForUser?code=gg8/ReTLv9NImka12PsuxVzOXdBKKiFPm3Y2acV2ycx0vjXjR6CVFw==')
+                                .get('https://junctionbudapestfunctions3.azurewebsites.net/api/PrepareDataForUser?code=gg8/ReTLv9NImka12PsuxVzOXdBKKiFPm3Y2acV2ycx0vjXjR6CVFw==&name=yuri')
                                 .then(response => {
                                         this.intervalid1 = setInterval(function() {
                                             // 10 seconds passed, let's make the request to fetch the processed page
 
                                             axios
-                                                .get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?code=GKzujHgeCZrl6P5JpNqf93gYS/ySpIXFVJkNVo8YOru8JJdDHCfkAQ==')
+                                                .get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?code=GKzujHgeCZrl6P5JpNqf93gYS/ySpIXFVJkNVo8YOru8JJdDHCfkAQ==&name=yuri')
                                                 .then(response => {
 
 
