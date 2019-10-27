@@ -172,12 +172,24 @@
                         // this is the preparation call, and in 10 seconds we'll make the real call
                         axios.get('https://junctionbudapestfunctions3.azurewebsites.net/api/PrepareDataForUser?name=' + this.user + '&code=gg8%2FReTLv9NImka12PsuxVzOXdBKKiFPm3Y2acV2ycx0vjXjR6CVFw%3D%3D').then(response1 => {
                             console.log("first request completed ");
+                            if (response1.data.statusCode != 200) {
+                                //alert('');
+                                this.loginstage = 1;
+                                return;
+                            }
 
                             this.intervalid1 = setInterval(function() {
                                 // 10 seconds passed, let's make the request to fetch the processed page
 
                                 axios.get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?name=' + this.user + '&code=GKzujHgeCZrl6P5JpNqf93gYS%2FySpIXFVJkNVo8YOru8JJdDHCfkAQ%3D%3D').then(response2 => {
                                     console.log("Second request completed with response: " + JSON.stringify(response2));
+
+                                    if (response2.data.statusCode != 200) {
+                                        //alert('');
+                                        this.loginstage = 1;
+                                        return;
+                                    }
+
                                     //alert(response.status);
                                     if (response2.data.status == "success") {
                                         this.soundFilePath = response2.data.soundUrl;
