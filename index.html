@@ -178,7 +178,7 @@
                                 return;
                             }
 
-                            this.intervalid1 = setInterval(function() {
+                            this.intervalid1 = setTimeout(function() {
                                 // 10 seconds passed, let's make the request to fetch the processed page
 
                                 axios.get('https://junctionbudapestfunctions3.azurewebsites.net/api/GetAudioForUser?name=' + this.user + '&code=GKzujHgeCZrl6P5JpNqf93gYS%2FySpIXFVJkNVo8YOru8JJdDHCfkAQ%3D%3D').then(response2 => {
